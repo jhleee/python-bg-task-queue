@@ -3,9 +3,11 @@ from setuptools import setup, find_packages
 
 setup(
     name='bg_task_queue',
-    version='0.4.13',
+    version='0.4.14',
     packages=find_packages(),
     install_requires=[],
+    long_description=open("README.md", "r").read(),
+    long_description_content_type="text/markdown",
     license='MIT',
     author="jhleee",
     author_email="ng0301@gmail.com",
